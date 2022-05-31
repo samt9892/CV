@@ -1,2 +1,2 @@
-# CV
-My curriculum vitae
+# About
+My CV using the R-package vitae.
