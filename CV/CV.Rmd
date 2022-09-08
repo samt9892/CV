@@ -1,12 +1,13 @@
 ---
-name: Samuel
+name: Samuel    
 surname: Thompson
-position: "PhD Student"
+position: "PhD researcher"
 address: "School of Biological Sciences, University of Western Australia"
 email: "samt9892@hotmail.com"
 github: samt9892
 linkedin: samt9892
 researchgate: Samuel-Thompson-17
+website: 
 date: "`r format(Sys.time(), '%B %Y')`"
 output: 
   vitae::awesomecv:
@@ -45,8 +46,8 @@ tribble(
   "2021-present", "Laboratory demonstrator (part-time)", "Perth", "University of Western Australia", list("BIOL1131: Plant and Animal Biology", "Laboratory demonstrator and tutor for both face-to-face and online delivery formats", "Marker for marine component", "Guest Lecturer: Amphioxus: A model for developmental biology"),
   "2019-2019", "Oceanographer", "Perth", "RPS MetOcean", list("Working in the data resources department", "Work processing, QCing and interpretating  large oceanographic datasets through a linux environment and the command line", "Data from instruments including: ADCPs, CTDs, LIDAR buoys, Wave rider buoys"),
   "2019-2020", "Windsurfing and sailing instructor (part-time)", "Perth", "Royal Perth Yacht Club", list("Working as a dual qualified windsurfing and sailing instructor at a revered Perth yacht club", "Delivering both practical and theoretical lessons to groups of all ages and abilities including as young as 8 years old and as old as 70"),
-  "2015-2017", "Analytical chemist", "Kent, United Kingdom", "Mylan", "Key R&D team member during the ANDA submission to the FDA for a generic Advair equivilent.
-  Inhalation-specific lab techniques including aerodynamic particle size distribution, dissolution and emitted dose testing.
+  "2015-2017", "Analytical chemist", "Kent, United Kingdom", "Mylan", "Key R&D team member during the ANDA submission to the FDA for a generic Advair drug product.
+  Conducted inhalation-specific lab techniques including aerodynamic particle size distribution, dissolution and emitted dose testing.
   Use, calibration, maintainance and troubleshooting of analyitical chemistry instrumentation including HPLC and Raman spectrometers.
   Worked abroad in Dublin training new staff and setting up equipment in a new, purpose built QC lab for Mylan's European inhalation manufacturing facility"
 ) %>% 
@@ -59,8 +60,8 @@ tribble(
 ```{r}
 tribble(
   ~ Degree, ~ Year, ~ Institution, ~loc, ~ details,
-  "R, Bash, Python", "", "Coding languages", "", list("Familiar with wide variety of R packages, especially for ecological statistics and spatial analysis", "Shell scripting; building and running pipelines for processing large bioinformatic and oceanographic  datasets", "Proficent with the configuration and operation of both native and virtual Linux environments (WSL2)", "Python"),
-  "Electrical (12v), Mechanical, Woodwork, Ropework, Boatwork", "", "Practical Skills", "", list("Highly proficent with building and troubleshooting 12v automotive/marine systems", "Highly proficent at troubleshooting software/hardware related PC issues; I have built multiple desktop PCs",  "Intermediate mechanical knowledge; especially 4x4 and automotive systems", "Basic carpentry/joinery skills from building multiple campervans", "Basic Ropework / Winch skills", "I have participated >1000 deployments of various marine sampling equipment on a variety of vessel types from the Southampton Solent to the Southern Ocean")
+  "Bash, R, HTML, Python", "", "Coding languages", "", list( "Shell scripting; building and running pipelines for processing large bioinformatic and oceanographic datasets via command-line", "Highly proficent with the configuration and operation of both native and virtual Linux environments (WSL2)", "Familiar with wide variety of R packages, especially for ecological statistics and spatial analysis", "Highly familiar with version control systems: Git and Docker", "Have my own hardcoded website written in HTML and styled using CSS"),
+  "Electrical, Mechanical, Woodwork, Ropework, Boatwork", "", "Practical Skills", "", list("Highly proficent with building and troubleshooting 12v automotive and marine systems", "Highly proficent at troubleshooting software/hardware related PC issues; I have built multiple desktop PCs and completed many initial OS installs and setups using various windows and linux distributions",  "Intermediate mechanical knowledge; especially 4x4 and diesel automotive systems", "Basic carpentry and joinery skills from building multiple campervans", "Basic ropework / winch skills", "I have participated >1000 deployments of various marine sampling equipment on a variety of vessel types from the Southampton Solent to the Southern Ocean")
 ) %>% 
   detailed_entries(Degree, Year, Institution, loc, details)
 ```
