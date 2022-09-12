@@ -48,7 +48,7 @@ tribble(
   "2019-2020", "Windsurfing and sailing instructor (part-time)", "Perth", "Royal Perth Yacht Club", list("Working as a dual qualified windsurfing and sailing instructor at a revered Perth yacht club", "Delivering both practical and theoretical lessons to groups of all ages and abilities including as young as 8 years old and as old as 70"),
   "2015-2017", "Analytical chemist", "Kent, United Kingdom", "Mylan", "Key R&D team member during the ANDA submission to the FDA for a generic Advair drug product.
   Conducted inhalation-specific lab techniques including aerodynamic particle size distribution, dissolution and emitted dose testing.
-  Use, calibration, maintainance and troubleshooting of analyitical chemistry instrumentation including HPLC and Raman spectrometers.
+  Use, calibration, maintainance and troubleshooting of analytical chemistry instrumentation including HPLC and Raman spectrometers.
   Worked abroad in Dublin training new staff and setting up equipment in a new, purpose built QC lab for Mylan's European inhalation manufacturing facility"
 ) %>% 
   detailed_entries(Role, Year, Institution, Location, Details)
