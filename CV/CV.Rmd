@@ -22,7 +22,7 @@ library(tidyverse)
 
 # About me
 
-I use novel sampling methods, computers and large data sets to answer biological questions, especially in marine vertebrates. My research has focused on the development and deployment of a novel sampler capable of collecting  environmental DNA (eDNA), stereo-video imagery and oceanographic data, along with a new family-specific eDNA metabarcoding primer set targeting Lutjanidae (snapper). I investigate the spatial distribution of marine vertebrate species in the context of anthropogenic change; especially the presence of restricted-access marine areas.
+I use novel sampling methods, computers and large data sets to answer biological questions, typically in marine vertebrates. My research has focused on the development and deployment of a novel sampler capable of simultaneously collecting environmental DNA (eDNA), stereo-video imagery and oceanographic data, along with the development of a new family-specific eDNA metabarcoding primer set targeting Lutjanidae (Snapper). I investigate the spatial distribution of marine vertebrate species in the context of anthropogenic change; especially the presence of restricted-access marine areas such as Marine Parks and offshore infrastructure.
 
 # Education
 
@@ -31,7 +31,7 @@ library(tibble)
 tribble(
   ~ Degree, ~ Year, ~ Institution, ~loc, ~ details,
   "PhD", "2020-present", "University of Western Australia", "Perth, Australia", list('eDNA metabarcoding PhD with the Marine Ecology Fisheries Research Group and the Jarman lab', 'Developed a sampling system capable of collecting 360-degree stereo-video, water samples and oceanographic data at depths up to 600m', 'Designed a family-specific metabarcoding primer set for Lutjanidae (snapper)', 'Worked extensively with industry (BHP)'), 
-  "Master of Biological Oceanography", "2017-2018", "University of Southampton", "Southampton, United Kingdom", list('Studied all forms of oceanography with a focus on biological oceanography and deep-sea ecology', 'In my final project I worked on characterising the abyssal megafauna of the Kiribati region from ROV imagery (published in Frontiers in marine science 2019)'),
+  "Master of  Oceanography", "2017-2018", "University of Southampton", "Southampton, United Kingdom", list('Studied all forms of oceanography with a focus on biological oceanography and deep-sea ecology', 'In my research project I worked on characterising deep-sea megafauna of the Kiribati region using a towed camera system (published in Frontiers in marine science 2019)'),
   "Bachelor of Biochemistry (with honours)", "2008-2012", "University of Kent", "Kent, United Kingdom", list('Studied general life sciences with a focus on microbiology/genetics', 'In my final project I worked on genome duplication events in the marine chordate Amphioxus'),
 ) %>% 
   detailed_entries(Degree, Year, Institution, loc, details)
@@ -86,11 +86,25 @@ tribble(
   detailed_entries(when=Year, with=Role, where=Organisation, what=Details)
 ```
 
+# Scientific voyages
+```{r}
+tribble(
+  ~Year, ~Role, ~Organisation, ~Details,
+  "2022 (22 days)", "Fremantle > Cocos Keeling Islands", "Pangaea Ocean Explorer", "Research Assistant - Minderoo OceanOmics",
+  "2022 (12 days)", "Carnarvon > Ningaloo Marine Park", "Keshi Mer", "Voyage lead - UWA Marine Ecology Group. Surveying paleocoastline features with stereo-BRUVs, novel samplers, CTD and eDNA",
+  "2022 (10 days)", "Fremantle > Abrohlos Islands > Fremantle", "Pangaea Ocean Explorer", "Research Assistant - Minderoo OceanOmics",
+  "2022 (14 days", "Esperence > Israelite bay > Fremantle", "Pangaea Ocean Explorer", "Research Assistant - Minderoo OceanOmics",
+  "2021 (10 days)", "Coral Bay > Exmouth Gulf" , "Pangaea Ocean Explorer", "Research Assistant - Minderoo OceanOmics",
+  "2021 (28 days)", "Dongara > Onslow, WA", "Adrianus", "PhD Student - UWA Marine Ecology group surveying Marine Parks, proposed park zones and offshore oil and gas infrastructure using stereo-BRUVs, novel samplers, CTD and eDNA",
+) %>% 
+  detailed_entries(when=Year, with=Role, where=Organisation, what=Details)
+```
 # Presentations
 
 ```{r}
 tribble(
   ~Year, ~Role, ~Organisation, ~Details,
+  "2023", "Simultaneous eDNA and visual surveying of the marine environment", "Australia and New Zealand eDNA conference", "ECR presenter",
   "2021", "Amphioxus: A model for developmental biology", "UWA - BIOL1131: Plant and Animal Biology", "Guest Lecturer",
   "2021", "Research update", "UWA - School of biological sciences postgradiate retreat", "Student presenter",
   "2020", "Research proposal", "UWA- School of Biological sciences friday seminar series", "PhD research proposal"
@@ -106,6 +120,7 @@ tribble(
   ~Year, ~Role, ~Organisation, ~Details,
 
   "2020-2024", "Grant: Biodiversity and societal benefits of restricted access marine areas", "BHP/UWA", "With Prof. Julian Partridge, Prof. Simon Jarman, Prof. Gary Kendrick, Dr. Tim Langlois, Dr Matt Navarro. Total funding: AUSD 666,524.",
+  "2023", "Award: CSIRO Early-career researcher conference bursary", "CSIRO", "Grant to attend the 2023 Australia and New Zealand eDNA conference in Hobart. Total funding: AUSD 600"
 ) %>% 
   detailed_entries(when=Year, with=Role, where=Organisation, what=Details)
 ```
