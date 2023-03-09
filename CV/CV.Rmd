@@ -31,8 +31,8 @@ library(tibble)
 tribble(
   ~ Degree, ~ Year, ~ Institution, ~loc, ~ details,
   "PhD", "2020-present", "University of Western Australia", "Perth, Australia", list('eDNA metabarcoding PhD with the Marine Ecology Fisheries Research Group and the Jarman lab', 'Developed a sampling system capable of collecting 360-degree stereo-video, water samples and oceanographic data at depths up to 600m', 'Designed a family-specific metabarcoding primer set for Lutjanidae (snapper)', 'Worked extensively with industry (BHP)'), 
-  "Master of  Oceanography", "2017-2018", "University of Southampton", "Southampton, United Kingdom", list('Studied all forms of oceanography with a focus on biological oceanography and deep-sea ecology', 'In my research project I worked on characterising deep-sea megafauna of the Kiribati region using a towed camera system (published in Frontiers in marine science 2019)'),
-  "Bachelor of Biochemistry (with honours)", "2008-2012", "University of Kent", "Kent, United Kingdom", list('Studied general life sciences with a focus on microbiology/genetics', 'In my final project I worked on genome duplication events in the marine chordate Amphioxus'),
+  "Master of  Oceanography", "2017-2018", "University of Southampton", "Southampton, United Kingdom", list('Studied all forms of oceanography with a focus on biological oceanography and deep-sea ecology', 'In my research project I worked on characterising deep-sea megafauna of the Kiribati region using a towed camera system (published in Frontiers in Marine Science 2019)'),
+  "Bachelor of Biochemistry (with honours)", "2010-2014", "University of Kent", "Kent, United Kingdom", list('Studied general life sciences with a focus on microbiology/genetics', 'In my final project I worked on genome duplication events in the marine chordate Amphioxus'),
 ) %>% 
   detailed_entries(Degree, Year, Institution, loc, details)
 ```
@@ -42,13 +42,13 @@ tribble(
 ```{r}
 tribble(
   ~Year, ~Role, ~Location, ~Institution, ~Details,
-  "2021-present", "Research assistant (part-time)", "Perth", "Minderoo", list("Research assistant with the Minderoo OceanOmics team during offshore expeditions", "Working onboard the Pangea Ocean Explorer, conducting eDNA sampling, extraction, amplification, purification and sequencing", "Has provided me with a unique opportunity to conduct end-to-end sampling to sequencing on an offshore vessel"),
+  "2021-present", "Research assistant (part-time)", "Perth", "Minderoo", list("Research assistant with the Minderoo OceanOmics team during offshore expeditions", "Working onboard the Pangaea Ocean Explorer, conducting eDNA sampling, extraction, amplification, purification and sequencing", "Has provided me with a unique opportunity to conduct end-to-end sampling to sequencing on an offshore vessel"),
   "2021-present", "Laboratory demonstrator (part-time)", "Perth", "University of Western Australia", list("BIOL1131: Plant and Animal Biology", "Laboratory demonstrator and tutor for both face-to-face and online delivery formats", "Marker for marine component", "Guest Lecturer: Amphioxus: A model for developmental biology"),
-  "2019-2019", "Oceanographer", "Perth", "RPS MetOcean", list("Working in the data resources department", "Work processing, QCing and interpretating  large oceanographic datasets through a linux environment and the command line", "Data from instruments including: ADCPs, CTDs, LIDAR buoys, Wave rider buoys"),
-  "2019-2020", "Windsurfing and sailing instructor (part-time)", "Perth", "Royal Perth Yacht Club", list("Working as a dual qualified windsurfing and sailing instructor at a revered Perth yacht club", "Delivering both practical and theoretical lessons to groups of all ages and abilities including as young as 8 years old and as old as 70"),
+  "2019-2019", "Oceanographer", "Perth", "RPS MetOcean", list("Working in the data resources department", "Work processing, QCing and interpreting  large oceanographic datasets through a linux environment and the command line", "Data from instruments including: ADCPs, CTDs, LIDAR buoys, Wave rider buoys"),
+  "2019-2020", "Windsurfing and sailing instructor (part-time)", "Perth", "Royal Perth Yacht Club", list("Working as a dual qualified windsurfing and sailing instructor at a prestigious Perth yacht club", "Delivering both practical and theoretical lessons to groups of all ages and abilities ranging from age 8 up to 70"),
   "2015-2017", "Analytical chemist", "Kent, United Kingdom", "Mylan", "Key R&D team member during the ANDA submission to the FDA for a generic Advair drug product.
   Conducted inhalation-specific lab techniques including aerodynamic particle size distribution, dissolution and emitted dose testing.
-  Use, calibration, maintainance and troubleshooting of analytical chemistry instrumentation including HPLC and Raman spectrometers.
+  Use, calibration, maintenance and troubleshooting of analytical chemistry instrumentation including HPLC and Raman spectrometers.
   Worked abroad in Dublin training new staff and setting up equipment in a new, purpose built QC lab for Mylan's European inhalation manufacturing facility"
 ) %>% 
   detailed_entries(Role, Year, Institution, Location, Details)
@@ -60,8 +60,8 @@ tribble(
 ```{r}
 tribble(
   ~ Degree, ~ Year, ~ Institution, ~loc, ~ details,
-  "Bash, R, HTML, Python", "", "Coding languages", "", list( "Shell scripting; building and running pipelines for processing large bioinformatic and oceanographic datasets via command-line", "Highly proficent with the configuration and operation of both native and virtual Linux environments (WSL2)", "Familiar with wide variety of R packages, especially for ecological statistics and spatial analysis", "Highly familiar with version control systems: Git and Docker", "Have my own hardcoded website written in HTML and styled using CSS"),
-  "Electrical, Mechanical, Woodwork, Ropework, Boatwork", "", "Practical Skills", "", list("Highly proficent with building and troubleshooting 12v automotive and marine systems", "Highly proficent at troubleshooting software/hardware related PC issues; I have built multiple desktop PCs and completed many initial OS installs and setups using various windows and linux distributions",  "Intermediate mechanical knowledge; especially 4x4 and diesel automotive systems", "Basic carpentry and joinery skills from building multiple campervans", "Basic ropework / winch skills", "I have participated >1000 deployments of various marine sampling equipment on a variety of vessel types from the Southampton Solent to the Southern Ocean")
+  "Bash, R, HTML, Python", "", "Coding languages", "", list( "Shell scripting; building and running pipelines for processing large bioinformatic and oceanographic datasets via command-line", "Highly proficient with the configuration and operation of both native and virtual Linux environments (WSL2)", "Familiar with wide variety of R packages, especially for ecological statistics and spatial analysis", "Highly familiar with version control systems: Git and Docker", "Have my own hardcoded website written in HTML and styled using CSS"),
+  "Electrical, Mechanical, Woodwork, Ropework, Boatwork", "", "Practical Skills", "", list("Highly proficient at building and troubleshooting 12v automotive and marine systems", "Highly proficient at troubleshooting software/hardware related PC issues; I have built multiple desktop PCs and completed many initial OS installs and setups using various windows and linux distributions",  "Intermediate mechanical knowledge; especially 4x4 and diesel automotive systems", "Basic carpentry and joinery skills from building multiple campervans", "Basic ropework / winch skills", "I have participated >1000 deployments of various marine sampling equipment on a variety of vessel types from the Southampton Solent to the Southern Ocean")
 ) %>% 
   detailed_entries(Degree, Year, Institution, loc, details)
 ```
@@ -71,7 +71,7 @@ tribble(
 ```{r}
 tribble(
   ~Year, ~Role, ~Organisation, ~Details,
-  "2022-2023", "Advanced resusitation", "PADI", "Oxygen provider and CPR",
+  "2022-2023", "Advanced resuscitation", "PADI", "Oxygen provider and CPR",
   "2021-2024", "First Aid", "PADI", "",
   "2020", "4WD training", "Drive Safe WA", "RIIVEH201D: Operate light vehicle, TLIC1051: Operate Commerical Vehicle, TLIC2025: Operate four wheel drive vehicle, TLIF2010: Apply fatigue management strategies, RIIVEH305E: Drive and recover a four wheel drive vehicle, PMASUP236: Operate vehicles in the field",
   "2020", "Recreational skippers ticket", "DOT", "",
@@ -92,8 +92,8 @@ tribble(
   ~Year, ~Role, ~Organisation, ~Details,
   "2022 (22 days)", "Fremantle > Cocos Keeling Islands", "Pangaea Ocean Explorer", "Research Assistant - Minderoo OceanOmics",
   "2022 (12 days)", "Carnarvon > Ningaloo Marine Park", "Keshi Mer", "Voyage lead - UWA Marine Ecology Group. Surveying paleocoastline features with stereo-BRUVs, novel samplers, CTD and eDNA",
-  "2022 (10 days)", "Fremantle > Abrohlos Islands > Fremantle", "Pangaea Ocean Explorer", "Research Assistant - Minderoo OceanOmics",
-  "2022 (14 days", "Esperence > Israelite bay > Fremantle", "Pangaea Ocean Explorer", "Research Assistant - Minderoo OceanOmics",
+  "2022 (10 days)", "Fremantle > Abrolhos Islands > Fremantle", "Pangaea Ocean Explorer", "Research Assistant - Minderoo OceanOmics",
+  "2022 (14 days", "Esperance > Israelite bay > Fremantle", "Pangaea Ocean Explorer", "Research Assistant - Minderoo OceanOmics",
   "2021 (10 days)", "Coral Bay > Exmouth Gulf" , "Pangaea Ocean Explorer", "Research Assistant - Minderoo OceanOmics",
   "2021 (28 days)", "Dongara > Onslow, WA", "Adrianus", "PhD Student - UWA Marine Ecology group surveying Marine Parks, proposed park zones and offshore oil and gas infrastructure using stereo-BRUVs, novel samplers, CTD and eDNA",
 ) %>% 
@@ -106,8 +106,8 @@ tribble(
   ~Year, ~Role, ~Organisation, ~Details,
   "2023", "Simultaneous eDNA and visual surveying of the marine environment", "Australia and New Zealand eDNA conference", "ECR presenter",
   "2021", "Amphioxus: A model for developmental biology", "UWA - BIOL1131: Plant and Animal Biology", "Guest Lecturer",
-  "2021", "Research update", "UWA - School of biological sciences postgradiate retreat", "Student presenter",
-  "2020", "Research proposal", "UWA- School of Biological sciences friday seminar series", "PhD research proposal"
+  "2021", "Research update", "UWA - School of biological sciences postgraduate retreat", "Student presenter",
+  "2020", "Research proposal", "UWA- School of Biological sciences Friday seminar series", "PhD research proposal"
 
 ) %>% 
   detailed_entries(when=Year, with=Role, where=Organisation, what=Details)
