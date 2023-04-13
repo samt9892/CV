@@ -90,6 +90,7 @@ tribble(
 ```{r}
 tribble(
   ~Year, ~Role, ~Organisation, ~Details,
+    "2023 (10 days)", "Esperance > Albany", "Immortalis", "Research Assistant - Minderoo OceanOmics",
   "2022 (22 days)", "Fremantle > Cocos Keeling Islands", "Pangaea Ocean Explorer", "Research Assistant - Minderoo OceanOmics",
   "2022 (12 days)", "Carnarvon > Ningaloo Marine Park", "Keshi Mer", "Voyage lead - UWA Marine Ecology Group. Surveying paleocoastline features with stereo-BRUVs, novel samplers, CTD and eDNA",
   "2022 (10 days)", "Fremantle > Abrolhos Islands > Fremantle", "Pangaea Ocean Explorer", "Research Assistant - Minderoo OceanOmics",
