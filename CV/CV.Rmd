@@ -92,11 +92,11 @@ tribble(
   ~Year, ~Role, ~Organisation, ~Details,
     "2023 (10 days)", "Esperance > Albany", "Immortalis", "Research Assistant - Minderoo OceanOmics",
   "2022 (22 days)", "Fremantle > Cocos Keeling Islands", "Pangaea Ocean Explorer", "Research Assistant - Minderoo OceanOmics",
-  "2022 (12 days)", "Carnarvon > Ningaloo Marine Park", "Keshi Mer", "Voyage lead - UWA Marine Ecology Group. Surveying paleocoastline features with stereo-BRUVs, novel samplers, CTD and eDNA",
+  "2022 (12 days)", "Carnarvon > Ningaloo Marine Park", "Keshi Mer", "Research lead - UWA Marine Ecology Group. Surveying paleocoastline features with stereo-BRUVs, novel samplers, CTDs and environmental DNA",
   "2022 (10 days)", "Fremantle > Abrolhos Islands > Fremantle", "Pangaea Ocean Explorer", "Research Assistant - Minderoo OceanOmics",
-  "2022 (14 days", "Esperance > Israelite bay > Fremantle", "Pangaea Ocean Explorer", "Research Assistant - Minderoo OceanOmics",
+  "2022 (14 days)", "Esperance > Israelite bay > Fremantle", "Pangaea Ocean Explorer", "Research Assistant - Minderoo OceanOmics",
   "2021 (10 days)", "Coral Bay > Exmouth Gulf" , "Pangaea Ocean Explorer", "Research Assistant - Minderoo OceanOmics",
-  "2021 (28 days)", "Dongara > Onslow, WA", "Adrianus", "PhD Student - UWA Marine Ecology group surveying Marine Parks, proposed park zones and offshore oil and gas infrastructure using stereo-BRUVs, novel samplers, CTD and eDNA",
+  "2021 (28 days)", "Dongara > Onslow, WA", "Adrianus", "PhD Student - UWA Marine Ecology group. Surveying Marine Parks, proposed park zones and offshore oil and gas infrastructure using stereo-BRUVs, novel samplers, CTDs and environmental DNA",
 ) %>% 
   detailed_entries(when=Year, with=Role, where=Organisation, what=Details)
 ```
@@ -120,8 +120,8 @@ tribble(
 tribble(
   ~Year, ~Role, ~Organisation, ~Details,
 
-  "2020-2024", "Grant: Biodiversity and societal benefits of restricted access marine areas", "BHP/UWA", "With Prof. Julian Partridge, Prof. Simon Jarman, Prof. Gary Kendrick, Dr. Tim Langlois, Dr Matt Navarro. Total funding: AUSD 666,524.",
-  "2023", "Award: CSIRO Early-career researcher conference bursary", "CSIRO", "Grant to attend the 2023 Australia and New Zealand eDNA conference in Hobart. Total funding: AUSD 600"
+  "2020-2024", "Grant: Biodiversity and societal benefits of restricted access marine areas", "BHP/UWA", "With Prof. Julian Partridge, Prof. Simon Jarman, Prof. Gary Kendrick, Dr. Tim Langlois, Dr Matt Navarro. Total funding: AUSD $666,524.",
+  "2023", "Award: CSIRO Early-career researcher conference bursary", "CSIRO", "Grant to attend the 2023 Australia and New Zealand eDNA conference in Hobart. Total funding: AUSD $600"
 ) %>% 
   detailed_entries(when=Year, with=Role, where=Organisation, what=Details)
 ```
