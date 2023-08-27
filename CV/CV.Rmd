@@ -42,7 +42,7 @@ tribble(
 ```{r}
 tribble(
   ~Year, ~Role, ~Location, ~Institution, ~Details,
-  "2021-present", "Research assistant (part-time)", "Perth", "Minderoo", list("Research assistant with the Minderoo OceanOmics team during offshore expeditions", "Working onboard the Pangaea Ocean Explorer, conducting eDNA sampling, extraction, amplification, purification and sequencing", "Has provided me with a unique opportunity to conduct end-to-end sampling to sequencing on an offshore vessel"),
+  "2021-present", "Research assistant (part-time)", "Perth", "Minderoo", list("Research assistant with the Minderoo OceanOmics team during offshore expeditions", "Working onboard the Pangaea Ocean Explorer, conducting eDNA sampling, extraction, amplification, purification and sequencing", "Opportunity to undertake knowledge transfer of eDNA techniques to traditional ranger groups", "Has provided me with a unique opportunity to conduct end-to-end sampling to sequencing on an offshore vessel"),
   "2021-present", "Laboratory demonstrator (part-time)", "Perth", "University of Western Australia", list("BIOL1131: Plant and Animal Biology", "Laboratory demonstrator and tutor for both face-to-face and online delivery formats", "Marker for marine component", "Guest Lecturer: Amphioxus: A model for developmental biology"),
   "2019-2019", "Oceanographer", "Perth", "RPS MetOcean", list("Working in the data resources department", "Work processing, QCing and interpreting  large oceanographic datasets through a linux environment and the command line", "Data from instruments including: ADCPs, CTDs, LIDAR buoys, Wave rider buoys"),
   "2019-2020", "Windsurfing and sailing instructor (part-time)", "Perth", "Royal Perth Yacht Club", list("Working as a dual qualified windsurfing and sailing instructor at a prestigious Perth yacht club", "Delivering both practical and theoretical lessons to groups of all ages and abilities ranging from age 8 up to 70"),
@@ -90,13 +90,14 @@ tribble(
 ```{r}
 tribble(
   ~Year, ~Role, ~Organisation, ~Details,
-    "2023 (10 days)", "Esperance > Albany", "Immortalis", "Research Assistant - Minderoo OceanOmics",
-  "2022 (22 days)", "Fremantle > Cocos Keeling Islands", "Pangaea Ocean Explorer", "Research Assistant - Minderoo OceanOmics",
-  "2022 (12 days)", "Carnarvon > Ningaloo Marine Park", "Keshi Mer", "Research lead - UWA Marine Ecology Group. Surveying paleocoastline features with stereo-BRUVs, novel samplers, CTDs and environmental DNA",
-  "2022 (10 days)", "Fremantle > Abrolhos Islands > Fremantle", "Pangaea Ocean Explorer", "Research Assistant - Minderoo OceanOmics",
-  "2022 (14 days)", "Esperance > Israelite bay > Fremantle", "Pangaea Ocean Explorer", "Research Assistant - Minderoo OceanOmics",
-  "2021 (10 days)", "Coral Bay > Exmouth Gulf" , "Pangaea Ocean Explorer", "Research Assistant - Minderoo OceanOmics",
-  "2021 (28 days)", "Dongara > Onslow, WA", "Adrianus", "PhD Student - UWA Marine Ecology group. Surveying Marine Parks, proposed park zones and offshore oil and gas infrastructure using stereo-BRUVs, novel samplers, CTDs and environmental DNA",
+  "2023 (10 days)", "Fremantle -> Abrolhos Islands -> Fremantle", "Pangaea Ocean Explorer", "Research Assistant - Minderoo OceanOmics",
+  "2023 (10 days)", "Esperance -> Albany", "Immortalis", "Research Assistant - Minderoo OceanOmics",
+  "2022 (22 days)", "Fremantle -> Cocos Keeling Islands", "Pangaea Ocean Explorer", "Research Assistant - Minderoo OceanOmics",
+  "2022 (12 days)", "Carnarvon -> Ningaloo Marine Park", "Keshi Mer", "Research lead - UWA Marine Ecology Group. Surveying paleocoastline features with stereo-BRUVs, novel samplers, CTDs and environmental DNA",
+  "2022 (10 days)", "Fremantle -> Abrolhos Islands -> Fremantle", "Pangaea Ocean Explorer", "Research Assistant - Minderoo OceanOmics",
+  "2022 (14 days)", "Esperance -> Israelite bay -> Fremantle", "Pangaea Ocean Explorer", "Research Assistant - Minderoo OceanOmics",
+  "2021 (10 days)", "Coral Bay -> Exmouth Gulf" , "Pangaea Ocean Explorer", "Research Assistant - Minderoo OceanOmics",
+  "2021 (28 days)", "Dongara -> Onslow, WA", "Adrianus", "PhD Student - UWA Marine Ecology group. Surveying Marine Parks, proposed park zones and offshore oil and gas infrastructure using stereo-BRUVs, novel samplers, CTDs and environmental DNA",
 ) %>% 
   detailed_entries(when=Year, with=Role, where=Organisation, what=Details)
 ```
