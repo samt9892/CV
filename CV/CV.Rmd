@@ -88,6 +88,8 @@ tribble(
 ```{r}
 tribble(
   ~Year, ~Role, ~Organisation, ~Details,
+  "2024 (26 days)", "Sydney -> Brisbane", "RV Investigator", "Research Assistant - Minderoo OceanOmics",
+  "2024 (14 days)", "Perth -> Abrohlos", "RV naturaliste", "Research Assistant - Minderoo OceanOmics / UWA Deep-Sea Research Centre", 
   "2023 (8 days)", "Perth -> Ningaloo Plateau", "Pangaea Ocean Explorer", "Research Assistant - Minderoo OceanOmics",
   "2023 (30 days)", "Christmas Island -> Cocos Keeling Islands -> Fremantle", "Pangaea Ocean Explorer", "Research Assistant - Minderoo OceanOmics / UWA Deep-Sea Research Group",
   "2023 (10 days)", "Fremantle -> Abrolhos Islands -> Fremantle", "Pangaea Ocean Explorer", "Research Assistant - Minderoo OceanOmics",
